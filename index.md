@@ -221,13 +221,6 @@ special instructions.
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
-<p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
-</p>
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -255,9 +248,6 @@ Display the contact email address set in the configuration file.
 </p>
 
 <p id="roles">
-  #<strong>Roles:</strong>
-  #To learn more about the roles at the workshop (who will be doing what),
-  #refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
 {% comment %}
@@ -422,11 +412,7 @@ please preview your site before committing, and make sure to run
   workshop, you will need an up-to-date web browser.
 </p>
 <p>
-  Software installation information is provided below for learners use after the workshop. During the workshop, learners will access virtual systems via a web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Software installation information is provided below for learners to use after the workshop. During the workshop, learners will access virtual systems via a web browser.
 </p>
 
 {% comment %}
