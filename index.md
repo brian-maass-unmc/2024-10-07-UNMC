@@ -87,9 +87,9 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>University of Nebraska Medical Center, with support from the <a href="https://www.nnlm.gov/about/regions/region3">Network of the National Library of Medicine (NNLM) Region 3</a> and the University of Nebraska's Holland Computing Center, is bringing The Carpentries to Omaha to make data literacy and computational programming accessible for the entire community. This workshop will focus on introductory tools used in research and data science, including the Unix Shell, Git, and Python Fundamentals.
+<p>The <strong><a href="https://www.unmc.edu/library/">McGoogan Health Sciences Library</a></strong> at the <a href="https://www.unmc.edu">University of Nebraska Medical Center</a>, with support from the <a href="https://www.nnlm.gov/about/regions/region3">Network of the National Library of Medicine (NNLM) Region 3</a> and the University of Nebraska's <a href="https://hcc.unl.edu">Holland Computing Center</a>, is bringing The Carpentries to Omaha to make data literacy and computational programming accessible for the entire community. This workshop will focus on basic concepts and tools used in research and data science, including task automation in the Unix Shell, version control with Git, and Python Fundamentals. Participants will be encouraged to help one another and to apply what they have learned to their own research problems. 
 </p>
-<p><strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
+<p><a href="https://carpentries.org">The Carpentries</a> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
 helpers, and supporters who share a mission to teach foundational computational and data science
@@ -101,6 +101,7 @@ skills to researchers.
 Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
+{% comment %}
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -108,6 +109,7 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+{% endcomment %}
 
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
