@@ -412,7 +412,7 @@ please preview your site before committing, and make sure to run
   workshop, you will need an up-to-date web browser.
 </p>
 <p>
-  Software installation information is provided below for learners to use after the workshop. During the workshop, learners will access virtual systems via a web browser.
+  No additional software needs to be installed or setup before the workshop. We will be using web browsers to access the University of Nebraska Holland Computing Center's supercomputer with software preinstalled. 
 </p>
 
 {% comment %}
@@ -432,7 +432,7 @@ to include the relevant installation instructions.
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
-{% endcomment %}
+
 
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
@@ -445,3 +445,4 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% endcomment %}
