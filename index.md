@@ -87,12 +87,14 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
-<p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
+<p>University of Nebraska Medical Center, with support from the <a href="https://www.nnlm.gov/about/regions/region3">Network of the National Library of Medicine (NNLM) Region 3</a> and the University of Nebraska's Holland Computing Center, is bringing The Carpentries to Omaha to make data literacy and computational programming accessible for the entire community. This workshop will focus on introductory tools used in research and data science, including the Unix Shell, Git, and Python Fundamentals.
+</p>
+<p><strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
 helpers, and supporters who share a mission to teach foundational computational and data science
 skills to researchers.
+</p>
 <p align="center">
   <em>
   <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
@@ -446,3 +448,5 @@ Please check the "Setup" page of
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
 {% endcomment %}
+
+<p>This project was supported by the National Library Of Medicine of the National Institutes of Health under Award Number UG4LM012345. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
