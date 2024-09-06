@@ -450,4 +450,5 @@ to obtain the software and data you will need to follow the lesson.
 {% endif %}
 {% endcomment %}
 
-<p>This project was supported by the National Library Of Medicine of the National Institutes of Health under Award Number UG4LM012345. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p>
+<em>
+<p>This project was supported by the National Library Of Medicine of the National Institutes of Health under Award Number UG4LM012345. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p></em>
