@@ -227,6 +227,26 @@ special instructions.
 </p>
 
 {% comment %}
+WHO CAN ATTEND?
+
+If you would like to specify who can attend the workshop,
+you can use the section below.
+
+Move the 'endcomment' tag above the beginning of the following
+<p> tag to make this section visible.
+
+Edit the text to match who can attend the workshop. For instance:
+- This workshop is open to affiliates to ABC university.
+- This workshop is open to the public.
+- If you are interested in attending this workshop, contact me@example.com
+  for more information
+{% endcomment %}
+
+<p id="who-can-attend">
+    <strong>To register for the workshop, please fill out the form <a href="https://forms.office.com/r/YggVUh2ZBC">here</a></strong>
+</p>
+
+{% comment %}
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
@@ -252,26 +272,6 @@ Display the contact email address set in the configuration file.
 </p>
 
 <p id="roles">
-</p>
-
-{% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-{% endcomment %}
-
-<p id="who-can-attend">
-    <strong>To register for the workshop, please fill out the form <a href="https://forms.office.com/r/YggVUh2ZBC">here</a></strong>
 </p>
 
 <hr/>
