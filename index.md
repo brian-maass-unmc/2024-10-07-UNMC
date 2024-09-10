@@ -243,7 +243,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 
 <p id="who-can-attend">
-    <strong>To register for the workshop, please fill out the form <a href="https://forms.office.com/r/YggVUh2ZBC">here</a></strong>
+    <strong>To register for the workshop,</strong> please fill out the form <strong><a href="https://forms.office.com/r/YggVUh2ZBC">here</a></strong>
 </p>
 
 {% comment %}
