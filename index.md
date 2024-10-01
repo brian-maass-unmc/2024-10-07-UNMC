@@ -311,6 +311,8 @@ available at https://codimd.carpentries.org
 
 <p>
 We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+
+We will use this page to track the commands typed by the instructor: https://hcc.unl.edu/swc-history/20241007.html
 </p>
 <hr/>
 {% endif %}
