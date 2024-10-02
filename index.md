@@ -312,7 +312,7 @@ available at https://codimd.carpentries.org
 <p>
 We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 
-We will use this page to track the commands typed by the instructor: https://hcc.unl.edu/swc-history/20241007.html
+<p>We will use this page to track the commands typed by the instructor: <a href="https://hcc.unl.edu/swc-history/20241007.html">https://hcc.unl.edu/swc-history/20241007.html</a></p>
 </p>
 <hr/>
 {% endif %}
@@ -364,6 +364,7 @@ further. To use this custom schedule here, replace the block
 of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
+
 
 <h2 id="schedule">Schedule</h2>
 
@@ -451,6 +452,29 @@ Please check the "Setup" page of
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
 {% endcomment %}
+
+<h2 id="links">Connecting to HCC Supercomputer</h2>
+<p>Supercomputer login page: <a href="https://swan-ood.unl.edu">swan-ood.unl.edu</a></p>
+
+<p>For Bash and Git: The terminal is located under the "Clusters" tab and is accessible by clicking "Swan Shell Access".</p>
+
+<p>For Python: The interface we are using is under the "Interactive Apps" tab and clicking "Jupyter Lab" near the bottom of the list.</p>
+
+
+<p>Jupyter Lab Config:</p>
+<p>Jupyter Lab Version: 3.4</p>
+<p>Working Directory: LEAVE BLANK</p>
+<p>Number of Cores: 2</p>
+<p>Running Time in Hours: 8</p>
+<p>Requested RAM: 6</p>
+<p>Partition: batch</p>
+<p>Reservation: See card handout</p>
+<p>GRES: LEAVE BLANK</p>
+<p>Job Contraints: LEAVE BLANK</p>
+<p>Email: LEAVE BLANK</p>
+
+
+<p>Click on "Launch" once you have applied the correct settings.</p>
 
 <em>
 <p>This project was supported by the National Library Of Medicine of the National Institutes of Health under Award Number UG4LM012345. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.</p></em>
