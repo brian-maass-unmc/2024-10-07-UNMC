@@ -365,6 +365,27 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
+<h2 id="links">Connecting to HCC Supercomputer</h2>
+Supercomputer login page: <a href="https://swan-ood.unl.edu">swan-ood.unl.edu</a></br>
+For Bash and Git: The terminal is located under the "Clusters" tab and is accessible by clicking "Swan Shell Access".</br>
+For Python: The interface we are using is under the "Interactive Apps" tab and clicking "Jupyter Lab" near the bottom of the list. </br>
+
+Jupyter Lab Config:
+Jupyter Lab Version: 3.4
+Working Directory: LEAVE BLANK
+Number of Cores: 2
+Running Time in Hours: 8
+Requested RAM: 6
+Partition: batch
+Reservation: See card handout
+GRES: LEAVE BLANK
+Job Contraints: LEAVE BLANK
+Email: LEAVE BLANK
+
+Click on "Launch" once you have applied the correct settings.
+
+
+
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
