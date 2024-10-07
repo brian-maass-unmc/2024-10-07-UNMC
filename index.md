@@ -455,6 +455,8 @@ to obtain the software and data you will need to follow the lesson.
 
 <h2 id="links">Connecting to HCC Supercomputer</h2>
 <p>Supercomputer login page: <a href="https://swan-ood.unl.edu">swan-ood.unl.edu</a></p>
+<p>Command History: <a href="https://hcc.unl.edu/swc-history/20241007.html">October 7th Command History</a></p>
+
 
 <p>For Bash and Git: The terminal is located under the "Clusters" tab and is accessible by clicking "Swan Shell Access".</p>
 
